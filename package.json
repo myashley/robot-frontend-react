@@ -4,7 +4,7 @@
   "description": "react frontend for robot project",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel. /src/index.html --out-dir ./dev",
+    "dev": "parcel ./src/index.html --out-dir ./dev",
     "build": "parcel build ./src/index.html --out-dir ./dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
