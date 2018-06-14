@@ -1,0 +1,19 @@
+{
+  "name": "robot-frontend-react",
+  "version": "1.0.0",
+  "description": "react frontend for robot project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myashley/robot-frontend-react.git"
+  },
+  "author": "Mill, Lindsey, Ashley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/myashley/robot-frontend-react/issues"
+  },
+  "homepage": "https://github.com/myashley/robot-frontend-react#readme"
+}
