@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+    <script type = "text/javascript" src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    
+    <link rel="stylesheet" href="/assets/robot.css">
+    <script defer src="/assets/index.js"></script>
+    <script>
+            $(document).ready(function(){
+                $('select').formSelect();
+            });
+    </script>
+
+    <title>robot</title>
+</head>
+<body>
+
+        <main>
+                <h1>robots</h1>
+
+
+                <div class="row">
+                    <form class="col s6" name="robotForm" action="/robots">
+
+                        <div class="row">
+                                <div class="input-field col s12">
+                                <input placeholder="Robot name" id="robotName" name="robotName" type="text" class="validate">
+                                <label for="robotName">Robot Name</label>
+                                </div>
+                        </div>
+                      
+                        <div class="row">
+                                <div class="input-field col s12">
+                                        <select name="robotType">
+                                          <option value="cat" selected>Cat</option>
+                                          <option value="dog">Dog</option>
+                                          <option value="boy">Boy</option>
+                                          <option value="girl">Girl</option>
+                                        </select>
+                                        <label>Choose your robot type</label>
+                                </div>
+                        </div>
+
+                        <div class="row">
+                                <div class="input-field col s12">
+                                        <select name="bodyColour">
+                                          <option value="red" selected>Red</option>
+                                          <option value="orange">Orange</option>
+                                          <option value="yellow">Yellow</option>
+                                          <option value="green">Green</option>
+                                          <option value="blue">Blue</option>
+                                          <option value="black">Black</option>
+                                          <option value="white">White</option>
+                                        </select>
+                                        <label>Choose robot body colour</label>
+                                </div>
+                        </div>
+
+                        <div class="row">
+                                <div class="input-field col s12">
+                                        <select name="faceColour">
+                                          <option value="red" selected>Red</option>
+                                          <option value="orange">Orange</option>
+                                          <option value="yellow">Yellow</option>
+                                          <option value="green">Green</option>
+                                          <option value="blue">Blue</option>
+                                          <option value="black">Black</option>
+                                          <option value="white">White</option>
+                                        </select>
+                                        <label>Choose robot face colour</label>
+                                </div>
+                        </div>
+                        
+                        <div class="row">
+                                <div class="input-field col s12">
+                                        <select name="highlightColour">
+                                          <option value="red" selected>Red</option>
+                                          <option value="orange">Orange</option>
+                                          <option value="yellow">Yellow</option>
+                                          <option value="green">Green</option>
+                                          <option value="blue">Blue</option>
+                                          <option value="black">Black</option>
+                                          <option value="white">White</option>
+                                        </select>
+                                        <label>Choose robot highlight colour</label>
+                                </div>
+                        </div>
+                        
+                        <div class="row">
+                                <div class="input-field col s12">
+                                        <select name="personality">
+                                          <option value="loyal" selected>Loyal</option>
+                                          <option value="rebellious">Rebellious</option>
+                                          <option value="surprise">Surprise</option>
+                                        </select>
+                                        <label>Choose robot personality</label>
+                                </div>
+                        </div>
+                        
+                        <div class="row">
+                                <div class="input-field col s12">
+                                <input placeholder="Message" id="message" type="text" class="validate">
+                                <label for="message">Message</label>
+                                </div>
+                        </div>
+
+                        <div class="input-field col s12">
+                                <input type="submit" name="submit" id="submit" class="waves-effect waves-light btn">
+                        </div>
+
+
+
+                    </form>
+                  </div>
+                        
+
+
+
+
+
+
+
+                <!-- <form name="robots">
+    
+                    <div class="textbox">
+                            <input type="text" required name="robot-name"/>
+                            <span class="highlight"></span>
+                            <span class="bar"></span>
+                            <label>robot name</label>
+                    </div>
+
+                    <label>robot type</label>
+                    <select name="type" width="200">
+                        <option value="cat" selected>cat</option>
+                        <option value="dog">dog</option>
+                        <option value="boy">boy</option>
+                        <option value="girl">girl</option>
+                    </select>
+
+                    <label>body colour</label>
+                    <select name="type" width="200">
+                        <option value="cat" selected>cat</option>
+                        <option value="dog">dog</option>
+                        <option value="boy">boy</option>
+                        <option value="girl">girl</option>
+                    </select>
+
+                    
+
+                    
+                    <div class="textbox">
+                        <input type="text" required name="robot-personality"/>
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label>robot personality</label>
+                    </div>
+    
+                    
+
+                        <select name="select">
+                            <option value="cat" selected>cat</option>
+                            <option value="dog">dog</option>
+                        </select>
+    
+                    <button>submit</button>
+    
+                </form>
+                
+                <div class="content">
+                    <ul class="robot-list"></ul>
+                </div> -->
+        </main>
+    
+</body>
+</html>
