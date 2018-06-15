@@ -1,5 +1,6 @@
-// import React from 'react'
-// import ReactDOM from 'react-dom'
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './component/App'
 
 const form = document.querySelector('form')
 
@@ -68,3 +69,6 @@ function postRobot(robot){
     // return newRobot
     
 }
+
+ReactDOM.render(<App/>, document.getElementById('root'))
+
