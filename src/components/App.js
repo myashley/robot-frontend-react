@@ -12,13 +12,11 @@ class App extends Component {
     }
 
     componentDidMount() {
-        fetch('htpp://localhost:3000/robots')
-        .then(res => res.json())
-        .then(robots => this.setState({robots, isLoading: false}))
-        .catch(err => console.error(err))
+        fetch('http://localhost:3000/robots')
+            .then(res => res.json())
+            .then(robots => this.setState({robots, isLoading: false}))
+            .catch(err => console.error(err))
     }
-
-
 
     render() {
         if (this.state.isLoading) {
@@ -26,7 +24,6 @@ class App extends Component {
         }
         return <RobotList robots={this.state.robots} />
     }
-
 
 }
 
