@@ -1,4 +1,5 @@
 import React from 'react'
+import Robot from './Robot'
 
 function RobotList(props) {
     const robots = props.robots.map(robot => {
